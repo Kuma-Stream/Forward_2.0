@@ -1,0 +1,8 @@
+version: "1.9"
+
+services:
+  forwar:
+    container_name: forwar
+    build:
+      context: .
+      command: python3 main.py
